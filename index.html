@@ -35,7 +35,24 @@
 
 <body data-spy="scroll" data-target="#collapse navbar-collapse navHeaderCollapse">
 
+<script>
 
+$(function() {
+  $('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});
+
+</script>
 <div class = "navbar navbar-inverse navbar-fixed-top">
 	<div class = "container">
 	  <a class="navbar-brand page-scroll" href="#page-top"><img src ="img/logo.png" height=50px width = 100px /> </a>
@@ -64,6 +81,8 @@
 			</div>
 			</div>
 			</div>
+           
+
 
 <header id="top" class="header">
         <div class="text-vertical-center">
@@ -74,8 +93,8 @@
 
 
 
-<section id="onas" class="onas bg-primary">
-        <div class="container">
+<section  class="onas bg-primary">
+        <div class="container" id="onas">
             <div class="row text-center">
                 <div class="col-lg-10 col-lg-offset-1">
                     
@@ -211,6 +230,7 @@
         <!-- /.container -->
     </section>
     <section id="oferta" class="oferta bg-primary">
+    
   <div class="container">
             <div class="row text-center">
                 <div class="col-lg-10 col-lg-offset-1">
@@ -298,8 +318,14 @@
 	
 
 	</body>
+    <div class="alt2">
+    <div class="container">
     <footer>
 
-<p align="center">Copyright. <a href="mailto:balbina@pakietyreklamowe.pl">Balbina Skolasińska</p>
-    </footer>
+<p align="center"> Copyright &copy;  <a href="mailto:balbina@pakietyreklamowe.pl">Balbina Skolasińska</p>
+     </a> </p>
+<p align="center"> <a href="#">Back to top</a></p>
+     </footer>
+   </div>
+   </div>
 	</html>

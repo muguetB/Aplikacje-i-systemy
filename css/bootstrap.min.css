@@ -198,3 +198,8 @@ figure{margin:0}img{vertical-align:middle}
 
 @media print{.hidden-print{display:none!important}}
 #map-container {height: 300px; width: 1000px; margin-top: 4%}
+.alt2{
+background:#333;
+min-height: 150px;
+
+}
