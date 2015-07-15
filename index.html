@@ -33,12 +33,13 @@
     <![endif]-->
     
  
-</head>
-
-<body data-spy="scroll" data-target="#collapse navbar-collapse navHeaderCollapse">
 
 
-<div class = "navbar navbar-inverse navbar-fixed-top" >
+
+<body data-spy="scroll" data-target="#myScrollspy" data-offset="20" data-target=" scroll #collapse navbar-collapse navHeaderCollapse">
+
+
+<div class = "navbar navbar-inverse navbar-fixed-top" role="navigation">
 	<div class = "container">
 	  <a class="navbar-brand page-scroll" href="#page-top"><img src ="img/logo.png" height=50px width = 100px /> </a>
             
@@ -52,9 +53,9 @@
 
 
 </button>
-		<div class = "collapse navbar-collapse navHeaderCollapse">
+		<nav class = "collapse navbar-collapse navHeaderCollapse" id="myScrollspy">
 			<ul class = "nav navbar-nav navbar-right">
-			<li><a href="#top">Home</a></li>
+			<li class="active"><a href="#top">Home</a></li>
 			<li><a href="#onas">O nas</a></li>
 			<li><a href="#oferta">Oferta</a></li>
 			<li><a href="#portfolio">Portfolio</a></li>
@@ -62,10 +63,10 @@
 
 			</ul>
 
-			</div>
-			</div>
-			</div>
-			</div>
+			</nav>
+		</div>
+	</div>
+</div>
            
 
 
@@ -214,20 +215,24 @@
         </div>
         <!-- /.container -->
     </section>
-    <section id="oferta" class="oferta bg-primary">
+    <section class="oferta bg-primary">
     
-  <div class="container">
+  <div class="container" id="oferta">
             <div class="row text-center">
                 <div class="col-lg-10 col-lg-offset-1">
-                    
+                   
                     <!--<hr class="small">-->
                     <div class="row" style="margin-top:80px">
+
                          <div class="col-md-6 col-md-offset-3 col-sm-3">
+
                             <div class="service-item">
                                 <span class="fa-stack fa-4x">
+                                
                                 <i class="fa fa-circle fa-stack-2x"></i>
                                 <i class="fa fa-cloud fa-stack-1x text-primary"></i>
                             </span>
+
                                 <h4 class="podwojne">
                                     <strong>APLIKACJE </br> MOBILNE</strong>
                                 </h4>
