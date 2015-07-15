@@ -23,6 +23,7 @@
     <script type="text/javascript" src="js/bootstrap.js"></script>
     <script type="text/javascript" src="js/scrollspy.js"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script type="text/javascript" src="js/scroll.js"></script>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -36,24 +37,7 @@
 
 <body data-spy="scroll" data-target="#collapse navbar-collapse navHeaderCollapse">
 
-<script>
 
-$(function() {
-  $('a[href*=#]:not([href=#])').click(function() {
-    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-      var target = $(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-      if (target.length) {
-        $('html,body').animate({
-          scrollTop: target.offset().top
-        }, 1000);
-        return false;
-      }
-    }
-  });
-});
-
-</script>
 <div class = "navbar navbar-inverse navbar-fixed-top" >
 	<div class = "container">
 	  <a class="navbar-brand page-scroll" href="#page-top"><img src ="img/logo.png" height=50px width = 100px /> </a>
@@ -100,7 +84,7 @@ $(function() {
                 <div class="col-lg-10 col-lg-offset-1">
                     
                     <!--<hr class="small">-->
-                    <div class="row">
+                    <div class="row" style="margin-top:80px">
                         <div class="col-md-3 col-sm-6">
                             <div class="service-item">
                                 <span class="fa-stack fa-4x">
@@ -237,7 +221,7 @@ $(function() {
                 <div class="col-lg-10 col-lg-offset-1">
                     
                     <!--<hr class="small">-->
-                    <div class="row">
+                    <div class="row" style="margin-top:80px">
                         <div class="col-md-3 col-sm-6">
                             <div class="service-item">
                                 <span class="fa-stack fa-4x">
@@ -262,7 +246,7 @@ $(function() {
                 <div class="col-lg-10 col-lg-offset-1">
                     
                     <!--<hr class="small">-->
-                    <div class="row">
+                    <div class="row" style="margin-top:80px">
                         <div class="col-md-4">
                             <div class="service-item">
                                 <span class="fa-stack fa-4x">
