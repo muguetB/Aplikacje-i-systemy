@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <head>
-
+     
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -16,7 +16,7 @@
     <link href="css/simple-sidebar.css" rel="stylesheet">
 
     <!-- Custom Menu-->
-    <link href="css/kolowe-menu.css" rel="stylesheet">
+  
 
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -34,45 +34,47 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
         <![endif]-->
-
+   
+        
+        <link rel="stylesheet" href="../jquery.ferro.ferroMenu.css" />
+      
+        <link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
+        
+        
+        <script src="../jquery-1.9.1.min.js" type="text/javascript"></script>
+        <script src="../jquery.ferro.ferroMenu-1.2.3.min.js" type="text/javascript"></script>
+        
+        <script type="text/javascript">
+            $(document).ready(function() {
+                $("#nav").ferroMenu({
+                    position    : "left-center"
+                });
+                $("#nav2").ferroMenu({
+                    position    : "right-center"
+                });
+            });
+        </script>
     </head>
 
-    <body>
-        <div id="wrapper">
-             <nav class="radialnav">
-                  <a href="#" class="ellipsis"><i class="fa fa-bars"></i></a>
-                  <ul class="menu">
-                    <li data-submenu="home"><a href="#"><i class="fa fa-home"></i></a></li>
-                    <li><a href="#"><i class="fa fa-database"></i></a></li>
-                    <li><a href="#"><i class="fa fa-desktop"></i></a></li>
-                    <li><a href="#"><i class="fa fa-cubes"></i></a></li>
-                    <li><a href="#"><i class="fa fa-envelope"></i></a></li>
-                </ul>
-            <!--menu z prawej strony 
-            <div id="sidebar-wrapper">
-                
-                
-                <ul class="sidebar-nav">
-                    <br>
-                    <br>
-                    <center><img src ="img/logo.png" height=50px width = 100px /> </a></center>
-                    <li class="sidebar-brand">
-                        <a href="#">Aplikacje i Systemy</a>
-                    </li>
-                    <li class="active"><a href="#top">Home</a></li>
-                    <li><a href="#onas">O nas</a></li>
-                    <li><a href="#oferta">Oferta</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#kontakt">Kontakt</a></li>
-                </ul>
-                -->
+    <body class="demo3">
 
-            </nav>
+     
+                
+            <ul id="nav2">
+            <li><a href="#top">Home</a></li>
+            <li><a href="#oferta">Oferta</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#kontakt;">Kontakt</a></li>
+
+
+        </ul>
+          
+            </nav></div>
         <div id="toggle"></div>
         <!-- /#sidebar-wrapper -->
 
         <!-- Page Content -->
-        <div id="page-content-wrapper">
+        
             <div class="row">
                 <div class="col-lg-12">
                     <header id="top" class="header">
