@@ -30,7 +30,7 @@ article{
 	height:100%;
 	text-align:center;
 	margin:0 auto;
-	position:fixed;
+	position:absolute;
 	left:0;
 	top:0;
 	z-index:2;
@@ -64,8 +64,7 @@ article .cnt{
 	text-align:justify;
 	line-height:24px;
 	font-size:20px;
-	margin-left: 20px;
-	margin-right: 250px;
+	
 }
 
 .off{
