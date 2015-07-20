@@ -11,23 +11,23 @@
       
       var colors = {
           "top" : {
-            "background-image" : "#000000",
+            "background-image" : "#99B7CA",
             "index" : 0
           },
           "onas" : {
-            "background" : "Gainsboro",
+            "background" : "#99B7CA",
             "index" : 1
           },
           "oferta" : {
-            "background" : "Silver",
+            "background" : "#99B7CA",
             "index" : 2
           },
           "portfolio" : {
-            "background" : "#999999",
+            "background" : "#99B7CA",
             "index" : 3
           },
           "kontakt" : {
-            "background" : "DimGray",
+            "background" : "#99B7CA",
             "index" : 4
           }
       };
