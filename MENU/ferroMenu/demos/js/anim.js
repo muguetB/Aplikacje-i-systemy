@@ -4,7 +4,7 @@
         $("#nav").ferroMenu({
           position  : "right-center",
           delay     : 50,
-          rotation  : 720,
+          rotation  : 1420,
           margin    : 20
         });
       });
