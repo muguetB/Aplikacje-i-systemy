@@ -15,19 +15,19 @@
             "index" : 0
           },
           "onas" : {
-            "background" : "#E9931A",
+            "background" : "Gainsboro",
             "index" : 1
           },
           "oferta" : {
-            "background" : "#1691BE",
+            "background" : "Silver",
             "index" : 2
           },
           "portfolio" : {
-            "background" : "#166BA2",
+            "background" : "#999999",
             "index" : 3
           },
           "kontakt" : {
-            "background" : "#FFFFFF",
+            "background" : "DimGray",
             "index" : 4
           }
       };
