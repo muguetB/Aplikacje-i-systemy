@@ -36,7 +36,7 @@
         var obj = eval("colors."+id);
         
         $("body").css("background",obj.background);
-        $(".ferromenu-controller,#nav li a").css("color",obj.background);
+       
         if(obj.index > currentIndex){
           $(".active").addClass("off");
           $(".active").transition({
