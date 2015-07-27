@@ -107,10 +107,23 @@ article .cnt{
 	opacity:0.8;
 }
 .tlo2 {
+	z-index:999;
   display: table;
   position: relative;
   width: 100%;
   height: 700px;
+  background: url(../img/bg.png) no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+.tlo3 {
+	z-index:998;
+  display: table;
+  position: fixed;
+  width: 100%;
+  height: 100px;
   background: url(../img/bg.png) no-repeat center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;

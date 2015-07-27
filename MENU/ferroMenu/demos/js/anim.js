@@ -36,7 +36,7 @@
         var obj = eval("colors."+id);
         
         $("body").css("background",obj.background);
-       
+     
         if(obj.index > currentIndex){
           $(".active").addClass("off");
           $(".active").transition({
