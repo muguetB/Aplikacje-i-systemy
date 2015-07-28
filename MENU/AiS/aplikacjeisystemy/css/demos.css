@@ -78,7 +78,7 @@ article .cnt{
 }
 
 .ferromenu-controller,#nav li a{
-	background:white;
+
 	
 	-webkit-transition: color 0.6s;
 	-moz-transition: color 0.6s;
@@ -91,8 +91,6 @@ article .cnt{
 .ferromenu-controller.mobile:active,
 #nav li a:hover,
 #nav li a:active{
-	background:white;
-	opacity:0.8;
 }
 
 .demo0{

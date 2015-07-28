@@ -59,15 +59,15 @@
 	height:70px;
 	-webkit-border-radius:50%;
 	border-radius:50%;
-	background: #45484d;
+	
 	line-height:82px;
 	display:block;
 
 
 }
 
-#nav li.desktop a:hover,#nav2 li.desktop a:hover,
-#nav li.mobile a:active,#nav2 li.mobile a:active{
+#nav li a:hover,
+#nav li a:active{
 	
 	opacity:0.8;
 	background:white;
@@ -77,4 +77,13 @@
 	-ms-transition: color 0.6s;
 	-o-transition: color 0.6s;
 	transition: color 0.6s;
+}
+
+#nav li a:active{
+
+
+	opacity:0.8;
+	background:#FFFFFF;
+
+
 }
