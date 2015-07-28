@@ -53,7 +53,7 @@
 #nav li a,#nav2 li a{
 	position:static;
 	font-size:20px;
-	color:#f2f2f2;
+
 	text-decoration:none;
 	width:70px;
 	height:70px;
@@ -62,13 +62,19 @@
 	background: #45484d;
 	line-height:82px;
 	display:block;
+
+
 }
 
-#nav li.desktop a:hover,#nav2 li.desktop a:hover{
-
-opacity:1;
-
-	},
+#nav li.desktop a:hover,#nav2 li.desktop a:hover,
 #nav li.mobile a:active,#nav2 li.mobile a:active{
-	opacity:0.7;
+	
+	opacity:0.8;
+	background:white;
+	
+	-webkit-transition: color 0.6s;
+	-moz-transition: color 0.6s;
+	-ms-transition: color 0.6s;
+	-o-transition: color 0.6s;
+	transition: color 0.6s;
 }
