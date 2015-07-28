@@ -15,6 +15,7 @@
 
   <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.css" />
 
+
   <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
   <link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
   <script src="../jquery-1.9.1.min.js" type="text/javascript"></script>
@@ -45,13 +46,21 @@
 </header>
 
 <body>
+<script>
+$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip();   
+});
+</script>
 	
   <ul id="nav" style="position:fixed">
-     <li><a href="javascript:goTo('top');" style="color: white">Home</a></li>
-     <li><a href="javascript:goTo('onas');">O nas</a></li>
-     <li><a href="javascript:goTo('oferta');">Oferta</i></a></li>
-     <li><a href="javascript:goTo('portfolio');">Portfolio</i></a></li>
-     <li><a href="javascript:goTo('kontakt');">Kontakt</i></a></li>
+     <li><a href="javascript:goTo('top');" data-placement="top" data-toggle="tooltip" title="Hooray!"><i class="fa fa-mobile fa-2x"></i></a></li>
+     <li><a href="javascript:goTo('onas');" data-placement="top" data-toggle="tooltip" title="Hooray!"><i class="fa fa-group fa-2x"></i></a></li>
+     <li><a href="javascript:goTo('oferta');" data-placement="left" data-toggle="tooltip" title="Hooray!"><i class="fa fa-file-text fa-2x"></i></a></li>
+     <li><a href="javascript:goTo('portfolio');" data-placement="left" data-toggle="tooltip" title="Hooray!"><i class="fa fa-database fa-2x"></i></a></li>
+     <li><a href="javascript:goTo('kontakt');" data-placement="left" data-toggle="tooltip" title="Hooray!"><i class="fa fa-building fa-2x"></i></a></li>
+     <li><a href="javascript:goTo('oferta');" data-placement="left" data-toggle="tooltip" title="Hooray!"><i class="fa fa-columns fa-2x"></i></a></li>
+     <li><a href="javascript:goTo('portfolio');" data-placement="bottom" data-toggle="tooltip" title="Hooray!"><i class="fa fa-html5 fa-2x"></i></a></li>
+     <li><a href="javascript:goTo('kontakt');" data-placement="bottom" data-toggle="tooltip" title="Hooray!"><i class="fa fa-italic fa-2x"></i></a></li>
  </ul>
 
  
