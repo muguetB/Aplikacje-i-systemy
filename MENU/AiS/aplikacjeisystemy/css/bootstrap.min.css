@@ -11,7 +11,7 @@ article,aside,details,figcaption,figure,header,footer,hgroup,main,menu,nav,secti
 
 audio,canvas,progress,video{display:inline-block;vertical-align:baseline}
 audio:not([controls]){display:none;height:0}[hidden],template{display:none}
-a{background-color:transparent}a:active,a:hover{outline:0; background:#000000;}
+a{background-color:transparent}a:active,a:hover{outline:0;}
 abbr[title]{border-bottom:1px dotted}
 b,strong{font-weight:700}dfn{font-style:italic}
 h1{margin:.67em 0;font-size:2em}
@@ -177,7 +177,8 @@ td,th{padding:0}
 button,input,select,textarea{font-family:inherit;font-size:inherit;line-height:inherit}
 a{color:#F2F2F2;text-decoration:none;}
 .menu a{color:#F2F2F2;text-decoration:none; background: #45484d;}
-a:focus,a:hover{color:#23527c;text-decoration:underline; background: #F2F2F2;}
+.menu a:focus,a:hover{color:#23527c;text-decoration:underline; background: #F2F2F2;}
+ a:focus,a:hover{color:#23527c;text-decoration:underline;}
 a:focus{outline:thin dotted;outline:5px auto -webkit-focus-ring-color;outline-offset:-2px}
 figure{margin:0}img{vertical-align:middle}
 .carousel-inner>.item>a>img,.carousel-inner>.item>img,.img-responsive,.thumbnail a>img,.thumbnail>img{display:block;max-width:100%;height:auto}

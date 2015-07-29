@@ -129,6 +129,11 @@ article .cnt{
   -o-background-size: cover;
 }
 
+.menu a{
+
+	background: #000000;
+}
+
 #map{
 	height: 300px;
 	width: 900px;

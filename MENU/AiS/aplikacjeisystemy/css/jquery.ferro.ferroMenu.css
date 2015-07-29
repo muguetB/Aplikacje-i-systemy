@@ -37,7 +37,7 @@
 }
 
 .ferromenu-controller.desktop:hover{
-	background:#FFFFFF;
+
 
 	},
 .ferromenu-controller.mobile:active{
@@ -81,9 +81,6 @@
 
 #nav li a:active{
 
-
-	opacity:0.8;
-	background:#FFFFFF;
 
 
 }
