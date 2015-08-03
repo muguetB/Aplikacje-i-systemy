@@ -6,7 +6,8 @@
 
 html{font-family:sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}
 body{margin:0;
-	overflow-y:scroll;}
+	overflow-y:scroll; 
+z-index:999;}
 article,aside,details,figcaption,figure,header,footer,hgroup,main,menu,nav,section,summary{display:block}
 
 audio,canvas,progress,video{display:inline-block;vertical-align:baseline}
