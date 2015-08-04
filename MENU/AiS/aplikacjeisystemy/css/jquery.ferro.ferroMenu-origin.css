@@ -3,7 +3,6 @@
 } 
 
 .ferromenu-controller{
-
 	position:fixed;
 	display:block;
 	width:60px;
@@ -37,12 +36,9 @@
 	transform : rotate(45deg);
 }
 
-.ferromenu-controller.desktop:hover{
-
-
-	},
+.ferromenu-controller.desktop:hover,
 .ferromenu-controller.mobile:active{
-	background:#000000;
+	background:#6e737b;
 }
 
 #nav li,#nav2 li{
@@ -52,31 +48,19 @@
 }
 
 #nav li a,#nav2 li a{
-	position:static;
 	font-size:20px;
-
+	color:#f2f2f2;
 	text-decoration:none;
-	width:70px;
-	height:70px;
+	width:40px;
+	height:40px;
 	-webkit-border-radius:50%;
 	border-radius:50%;
-
-	line-height:82px;
+	background: #45484d;
+	line-height:40px;
 	display:block;
-
-
 }
 
-#nav li a:hover,
-#nav li a:active{
-	
-	opacity:0.8;
-	background:white;
-	
-	-webkit-transition: color 0.6s;
-	-moz-transition: color 0.6s;
-	-ms-transition: color 0.6s;
-	-o-transition: color 0.6s;
-	transition: color 0.6s;
+#nav li.desktop a:hover,#nav2 li.desktop a:hover,
+#nav li.mobile a:active,#nav2 li.mobile a:active{
+	opacity:0.7;
 }
-

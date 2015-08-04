@@ -15,21 +15,26 @@
             "index" : 0
           },
           "onas" : {
-            "background" : "#99B7CA",
+            "background" : "#F2F2F2",
             "index" : 1
           },
           "oferta" : {
-            "background" : "#99B7CA",
+            "background" : "#F4F4F4",
             "index" : 2
           },
           "portfolio" : {
-            "background" : "#99B7CA",
+            "background" : "#F6F6F6",
             "index" : 3
           },
           "kontakt" : {
             "background" : "#99B7CA",
             "index" : 4
-          }
+          },
+          "tip" : {
+          "background" : "#99B7CA",
+            "index" : 5
+
+          },
       };
       
       function goTo(id){
@@ -40,7 +45,7 @@
         if(obj.index > currentIndex){
           $(".active").addClass("off");
           $(".active").transition({
-            x : -100,
+            y : -100,
             opacity : 0,
             zIndex : 0
           },600);
@@ -49,11 +54,11 @@
           
           $("#"+id).addClass("active");
           $("#"+id).transition({
-            x : 400
+            y : 400
           },0,function(){
             $("#"+id).removeClass("off");
             $("#"+id).transition({
-              x : 0,
+              y : 0,
               opacity : 1,
               zIndex : 2
             },600);
@@ -61,7 +66,7 @@
         }else if(obj.index < currentIndex){
           $(".active").addClass("off");
           $(".active").transition({
-            x : 100,
+            y : 100,
             opacity : 0,
             zIndex : 0
           },600);
@@ -70,11 +75,11 @@
           
           $("#"+id).addClass("active");
           $("#"+id).transition({
-            x : -400
+            y : -400
           },0,function(){
             $("#"+id).removeClass("off");
             $("#"+id).transition({
-              x : 0,
+              y : 0,
               opacity : 1,
               zIndex : 2
             },600);
