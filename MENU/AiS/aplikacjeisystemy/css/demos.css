@@ -135,6 +135,10 @@ article .cnt{
   background-size: cover;
   -o-background-size: cover;
 }
+.tlo4 {
+
+background: url(../img/slide1.jpg) no-repeat center center scroll;
+}
 #map{
 	height: 300px;
 	width: 900px;

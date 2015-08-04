@@ -11,11 +11,11 @@
       
       var colors = {
           "top" : {
-            "background-image" : "#99B7CA",
+            "background" : "#F4F4F4",
             "index" : 0
           },
           "onas" : {
-            "background" : "#F2F2F2",
+            "background" : "#F4F4F4",
             "index" : 1
           },
           "oferta" : {
