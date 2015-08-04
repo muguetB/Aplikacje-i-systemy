@@ -3,7 +3,7 @@
       #map-outer {  height: 300px; 
 	  				padding: 20px; 
 					margin-bottom: 20px; }
-	  #map-container { height: 400px }
+	
 	  @media all and (max-width: 100%) {
 		#map-outer  { height: 650px }
 		}
