@@ -90,4 +90,60 @@
       
       }
 
+        function goTo2(id){
+        var obj = eval("colors."+id);
+        
+        $("body").css("background",obj.background);
+     
+        if(obj.index > currentIndex){
+          $(".active").addClass("off");
+          $(".active").transition({
+            x : -100,
+            opacity : 0,
+            zIndex : 0
+          },600);
+          
+          $("#"+currentId).removeClass("active");
+          
+          $("#"+id).addClass("active");
+          $("#"+id).transition({
+            x : 400
+          },0,function(){
+            $("#"+id).removeClass("off");
+            $("#"+id).transition({
+              x : 0,
+              opacity : 1,
+              zIndex : 2
+            },600);
+          });
+        }else if(obj.index < currentIndex){
+          $(".active").addClass("off");
+          $(".active").transition({
+            x : 100,
+            opacity : 0,
+            zIndex : 0
+          },600);
+          $("#"+currentId).removeClass("active");
+          
+          
+          $("#"+id).addClass("active");
+          $("#"+id).transition({
+            x : -400
+          },0,function(){
+            $("#"+id).removeClass("off");
+            $("#"+id).transition({
+              x : 0,
+              opacity : 1,
+              zIndex : 2
+            },600);
+          });
+        }
+        currentIndex = obj.index;
+        currentId = id;
+      
+      }
+
+
+
+
 
